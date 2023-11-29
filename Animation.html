@@ -2,8 +2,19 @@
 <html>
     <head>
         <style>
-            @keyframes moving{
-                
+            @keyframes yara{
+                0%   {left:0px; top:px;}
+                25%  {left:1350px; top:0px;}
+                50%  {left:1350px; top:490px;}
+                75%  {left:0px; top:490px;}
+                100% {left:0px; top:0px;}
+            }
+            .moving{
+                animation-name: yara;
+                animation-duration: 12s;
+                position: relative;
+                animation-iteration-count: infinite;
+
             }
         </style>
     </head>
