@@ -1,0 +1,21 @@
+/*Animation Start*/
+
+@keyframes yara{
+    0%   {left:0px; top:0px;}
+    25%  {left:1375px; top:0px;}
+    50%  {left:1375px; top:455px;}
+    75%  {left:0px; top:455px;}
+    100% {left:0px; top:0px;}
+}
+.moving{
+    animation-name: yara;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+.fontbig{
+    font-size: medium;
+}
+/*Animation End*/
